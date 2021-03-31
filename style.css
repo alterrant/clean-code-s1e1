@@ -96,7 +96,7 @@ label[for="new-task"] {
 input#new-task {
     width: 318px;
 }
-p > button:hover {
+.topSectionForAddingElementToList > button:hover {
     color: #0FC57C;
 }
 
