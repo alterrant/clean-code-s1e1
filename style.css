@@ -130,12 +130,12 @@ li > input[type="text"] {
 li > .item-list__button-delete:hover {
     color: #CF2323;
 }
-item-list__button-delete img {
+.item-list__button-delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-item-list__button-delete img:hover {
+.item-list__button-delete img:hover {
     transform: rotateZ(0);
 }
 
