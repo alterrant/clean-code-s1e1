@@ -28,8 +28,7 @@ body {
     width: 500px;
     margin: 0 auto 0;
 }
-.add-item__input,
-.item-list__label {
+.input-task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -149,10 +148,10 @@ ul#completed-tasks label {
 ul li input[type=text] {
     display: none;
 }
-ul .item-list input[type=text] {
+ul .item-list__list_save input[type=text] {
     display: inline-block;
     width: 224px;
 }
-ul .item-list label {
+ul .item-list__list_save label {
     display: none;
 }
